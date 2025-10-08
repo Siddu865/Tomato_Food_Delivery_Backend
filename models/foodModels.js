@@ -2,7 +2,7 @@
 import mongoose from "mongoose";
 
 export const foodConnection = mongoose.createConnection(
-  "mongodb+srv://siddardha865_db_user:FFtQedxpGfE2Jnrm@fooddelivery.ryxlqri.mongodb.net/?retryWrites=true&w=majority&appName=foodDelivery"
+  "mongodb+srv://siddardha865_db_user:FFtQedxpGfE2Jnrm@fooddelivery.ryxlqri.mongodb.net/foodDelivery?retryWrites=true&w=majority&appName=foodDelivery"
 );
 
 
